@@ -23,4 +23,6 @@ finally we visit http://localhost:5000
 
 we can see: "Hello from MySQL!"
 
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/6385e6bc-cdc0-4bcb-8367-e177f819d028" />
+
  
