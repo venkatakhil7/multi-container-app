@@ -5,9 +5,9 @@ This project introduces key DevOps concepts such as containerization, service ne
 
 Technologies Used
 
- 1.Python 3.9  
+ 1.Python  
  2.Flask  
- 3.MySQL 5.7  
+ 3.MySQL  
  4.Docker & Docker Compose  
  5.SQL
 
