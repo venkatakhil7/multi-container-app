@@ -25,4 +25,5 @@ we can see: "Hello from MySQL!"
 
 <img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/6385e6bc-cdc0-4bcb-8367-e177f819d028" />
 
+<img width="954" height="540" alt="Image" src="https://github.com/user-attachments/assets/7c5aa316-ef16-498b-9257-577141fa91e2" />
  
