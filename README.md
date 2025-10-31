@@ -11,11 +11,11 @@ Technologies Used
  4.Docker & Docker Compose  
  5.SQL
 
-app.py — Flask app that connects to MySQL and returns a message  
-Dockerfile — Builds the Flask container  
-requirements.txt — Lists Python dependencies  
-docker-compose.yml — Defines and connects Flask and MySQL services  
-init.sql — Initializes the database with a table and message
+app.py - Flask app that connects to MySQL and returns a message  
+Dockerfile - Builds the Flask container  
+requirements.txt - Lists Python dependencies  
+docker-compose.yml - Defines and connects Flask and MySQL services  
+init.sql - Initializes the database with a table and message
 
 For Building and running the containers: we use docker compose up --build command
 
