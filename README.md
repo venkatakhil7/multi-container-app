@@ -1,27 +1,24 @@
 Multi-Container Application with Docker Compose
 
-The goal of this assignment is to build a simple multi-container application using Docker Compose, which helps manage and run multiple services together. 
-This project introduces key DevOps concepts such as containerization, service networking, environment configuration, and persistent data storage.
+Objective of the task:
+The goal of this assignment was to design and implement a simple multi-container application using Docker Compose. The application consists of a Flask-based web API and a MySQL database, running in separate containers. The objective was to demonstrate how containerized services can communicate, share data, and persist state. This task was intended to build foundational DevOps skills, including container orchestration, service networking, and persistent storage. It also aimed to simulate a real-world microservice setup where a backend API interacts with a database. The final deliverable was a working application accessible via browser, displaying a message stored in MySQL.
 
-Technologies Used
+How I Approached It:
+I began by creating a basic Flask app (app.py) that connects to a MySQL database and fetches a message. I wrote a Dockerfile to containerize the Flask app with all required dependencies. Next, I created a docker-compose.yml file to define two services: web (Flask) and db (MySQL). I configured environment variables and mounted a volume to initialize the database using init.sql. I used Docker volumes to ensure MySQL data persisted across container restarts. I ran the application using docker compose up --build and validated the output at http://localhost:5000. I debugged issues related to container startup, database connection, and volume mounting. I documented each step in a detailed log and committed all files incrementally to GitHub. Finally, I pushed the Docker image to Docker Hub and added screenshots to the GitHub repo.
 
- 1.Python  
- 2.Flask  
- 3.MySQL  
- 4.Docker & Docker Compose  
- 5.SQL
+Technologies Used:
+Python 3.9 — for writing the Flask API
+Flask — lightweight web framework for the API
+MySQL 5.7 — relational database for storing messages
+Docker — to containerize the app and database
+Docker Compose — to orchestrate multi-container setup
+SQL — to create and populate the database
+Git & GitHub — for version control and documentation
+Markdown — for writing the README and logs
+VS Code — as the development environment
 
-app.py - Flask app that connects to MySQL and returns a message  
-Dockerfile - Builds the Flask container  
-requirements.txt - Lists Python dependencies  
-docker-compose.yml - Defines and connects Flask and MySQL services  
-init.sql - Initializes the database with a table and message
-
-For Building and running the containers: we use docker compose up --build command
-
-finally we visit http://localhost:5000
-
-we can see: "Hello from MySQL!"
+Outcome:
+Successfully built and ran a multi-container application using Docker Compose. The Flask app connected to MySQL and displayed a message from the database. Data persisted across container restarts using Docker volumes. The database was initialized automatically using a mounted SQL script. All code, logs, and screenshots were committed to GitHub with clear commit messages.  
 
 <img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/6385e6bc-cdc0-4bcb-8367-e177f819d028" />
 
