@@ -26,6 +26,11 @@ we can see: "Hello from MySQL!"
 <img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/6385e6bc-cdc0-4bcb-8367-e177f819d028" />
 
 <img width="954" height="540" alt="Image" src="https://github.com/user-attachments/assets/7c5aa316-ef16-498b-9257-577141fa91e2" />
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/9a7ca63d-3d12-408c-af32-8aea707c671d" />
+
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/a0aa567b-626b-46cb-b10e-bf695095d1f4" />
+
+<img width="960" height="539" alt="Image" src="https://github.com/user-attachments/assets/338a0c89-3536-41cb-a4ab-bf2b9e5d7e25" />
 
 
  
