@@ -21,6 +21,6 @@ For Building and running the containers: we use docker compose up --build comman
 
 finally we visit http://localhost:5000
 
-You should see: "Hello from MySQL!"
+we can see: "Hello from MySQL!"
 
  
