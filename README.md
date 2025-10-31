@@ -7,15 +7,15 @@ How I Approached It:
 I began by creating a basic Flask app (app.py) that connects to a MySQL database and fetches a message. I wrote a Dockerfile to containerize the Flask app with all required dependencies. Next, I created a docker-compose.yml file to define two services: web (Flask) and db (MySQL). I configured environment variables and mounted a volume to initialize the database using init.sql. I used Docker volumes to ensure MySQL data persisted across container restarts. I ran the application using docker compose up --build and validated the output at http://localhost:5000. I debugged issues related to container startup, database connection, and volume mounting. I documented each step in a detailed log and committed all files incrementally to GitHub. Finally, I pushed the Docker image to Docker Hub and added screenshots to the GitHub repo.
 
 Technologies Used:
-Python 3.9 — for writing the Flask API
-Flask — lightweight web framework for the API
-MySQL 5.7 — relational database for storing messages
-Docker — to containerize the app and database
-Docker Compose — to orchestrate multi-container setup
-SQL — to create and populate the database
-Git & GitHub — for version control and documentation
-Markdown — for writing the README and logs
-VS Code — as the development environment
+Python 3.9 - for writing the Flask API
+Flask - lightweight web framework for the API
+MySQL 5.7 - relational database for storing messages
+Docker - to containerize the app and database
+Docker Compose -to orchestrate multi-container setup
+SQL - to create and populate the database
+Git & GitHub - for version control and documentation
+Markdown - for writing the README and logs
+VS Code - as the development environment
 
 Outcome:
 Successfully built and ran a multi-container application using Docker Compose. The Flask app connected to MySQL and displayed a message from the database. Data persisted across container restarts using Docker volumes. The database was initialized automatically using a mounted SQL script. All code, logs, and screenshots were committed to GitHub with clear commit messages.  
